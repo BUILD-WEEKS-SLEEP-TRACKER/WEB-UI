@@ -237,8 +237,8 @@ header .header-container .navbar ul {
 }
 @media (max-width:730px) {
   header .header-container .navbar ul {
-    height: 3vh;
-    padding-top: 50px;
+    height: 10vh;
+    align-items: center;
   }
 }
 header .header-container .navbar .login {
