@@ -1,0 +1,220 @@
+body{
+background-color: rgb(0,0,0,0.1);
+}
+
+.top-page{
+height: 50%;
+display: flex;
+justify-content: space-evenly;
+
+@media@tablet{
+  height: 40vh;
+}
+
+@media@phone{
+  height: 50vh;
+}
+div{
+  width: 40%;
+  padding-top: 6%;
+  
+  @media@tablet{
+    padding-top: 8%;
+  }
+
+  
+@media@phone{
+  width: 90%;
+  margin: 0 auto;
+}
+
+  h1{
+    .title-style;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.4rem;
+    padding-top: 1rem;
+    color: rgba(255, 255, 255, 0.87);
+
+    @media @tablet {
+      font-size: 3rem;
+    }
+
+    @media@phone{
+      text-align: center;
+    }
+
+  }
+
+  p{
+    .main-style;
+    padding-top: 8%;
+    padding-bottom:8%;
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 20%;
+
+    @media@tablet {
+      padding-right: 4%;
+    }
+
+    @media@phone{
+      text-align: center;
+    }
+  }
+
+  .buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    button{
+      width: 45%;
+      color: white;
+      padding: 1rem 5rem;
+      border-radius: 18px;
+      
+      @media@tablet{
+        padding: .5rem 3rem;
+      }
+    }
+    
+
+    button:hover{
+      color: white;
+      background-color:lightseagreen;
+
+      }
+
+      
+      .signUp{
+        background-color: #39869D;  
+        border: #39869D;
+
+        a{
+          color: white;
+          font-size: 1.8rem;
+          text-decoration: none;
+        }
+      }
+
+      .signIn{
+        background-color: black;
+        border-color: #39869D;
+
+        a{
+          color: #39869D;
+          font-size: 1.8rem;
+          text-decoration: none;
+        }
+
+      }       
+
+    
+  }
+
+  img{
+    width: 80%;
+    border-radius: 8px;
+
+    @media @tablet {
+      padding-top: 2rem;
+    }
+  }
+}
+
+.sleepImg{
+
+  @media@phone{
+  display: none;
+}
+}
+}
+
+
+
+.bottom-page{
+width: 95%;
+height: 60%;
+padding-top: 8%;
+margin: 0 auto;
+display: flex;
+justify-content: space-evenly;
+
+@media @tablet {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+@media@phone{
+  margin-bottom: 6rem;
+}
+
+
+div {
+width: 33%;
+height: 60vh;
+padding-top: 6%;
+padding-left: 8%;
+
+@media@tablet {
+  width: 80%;
+  padding-top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img{
+  width: 80%;
+  height: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+
+  @media@tablet {
+    width: 60%;
+    height: 80%;
+    padding-top: 4rem;
+  }
+}
+
+h3{
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 30%;
+
+  @media@tablet{
+    padding: 0;
+  }
+}
+}
+}
+
+.rightTwo{
+h3{
+  text-align: center;
+  padding-right: 25rem;
+}
+
+@media@tablet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.lastBox{
+display: flex;
+flex-direction: column;
+
+h3{
+  text-align: center;
+}
+}
