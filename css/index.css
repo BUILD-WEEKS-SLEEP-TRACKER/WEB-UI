@@ -49,6 +49,7 @@ ol,
 ul,
 li,
 fieldset,
+footer,
 form,
 label,
 legend,
@@ -139,7 +140,19 @@ header section div h1 {
   color: rgba(255, 255, 255, 0.87);
   font-weight: bold;
   line-height: 5.4rem;
-  margin-right: 15%;
+  margin-right: 12%;
+}
+@media (max-width:1000px) {
+  header section div h1 {
+    font-size: 2.7rem;
+    margin-right: 5%;
+    line-height: 2.8rem;
+  }
+}
+@media (max-width:500px) {
+  header section div h1 {
+    font-size: 2.2rem;
+  }
 }
 header section div nav {
   font-size: 2.4rem;
@@ -151,6 +164,17 @@ header section div nav {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width:1000px) {
+  header section div nav {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+}
+@media (max-width:500px) {
+  header section div nav {
+    font-size: 1.2rem;
+  }
+}
 header section div nav a {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -159,12 +183,47 @@ header section div nav a {
   font-weight: bold;
   line-height: 2.7rem;
 }
+@media (max-width:1000px) {
+  .navBar {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+}
+@media (max-width:500px) {
+  .navBar {
+    font-size: 1.2rem;
+  }
+}
 .navBar a {
   margin-right: 3%;
   color: rgba(255, 255, 255, 0.3);
 }
 a {
   text-decoration: none;
+}
+footer {
+  height: 5%;
+  margin-top: 3%;
+}
+footer section {
+  background-color: #636363;
+  border: #b8b8b8 dashed 0.2rem;
+  height: 100%;
+  padding: 1%;
+}
+footer section h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width:1000px) {
+  footer section h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:500px) {
+  footer section h1 {
+    font-size: 1rem;
+  }
 }
 section.section-one {
   height: 45%;
@@ -174,6 +233,18 @@ section.section-one {
   justify-content: space-around;
   margin-top: 2%;
   margin-bottom: 5%;
+}
+@media (max-width:1000px) {
+  section.section-one {
+    height: 35%;
+    margin-bottom: 3%;
+  }
+}
+@media (max-width:500px) {
+  section.section-one {
+    height: 25%;
+    margin-bottom: 1% ;
+  }
 }
 section.section-one div {
   width: 45%;
@@ -186,6 +257,20 @@ section.section-one div div {
   width: 70%;
   height: 100%;
 }
+@media (max-width:1000px) {
+  section.section-one div div {
+    height: 75%;
+    width: 80%;
+  }
+}
+@media (max-width:500px) {
+  section.section-one div div {
+    height: 65%;
+    width: 100%;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+  }
+}
 section.section-one div div h1 {
   font-size: 4.8rem;
   line-height: 5.4rem;
@@ -193,11 +278,43 @@ section.section-one div div h1 {
   margin: 5% 0%;
   width: 100%;
 }
+@media (max-width:1000px) {
+  section.section-one div div h1 {
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+  }
+}
+@media (max-width:500px) {
+  section.section-one div div h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width:1000px) {
+  section.section-one div div p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width:500px) {
+  section.section-one div div p {
+    font-size: 0.8rem;
+  }
+}
 section.section-one div div.buttons {
   height: 10%;
   flex-direction: row;
   justify-content: space-between;
   width: 65%;
+}
+@media (max-width:1000px) {
+  section.section-one div div.buttons {
+    width: 80%;
+  }
+}
+@media (max-width:500px) {
+  section.section-one div div.buttons {
+    width: 100%;
+  }
 }
 section.section-two {
   height: 30%;
@@ -206,8 +323,35 @@ section.section-two {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width:1000px) {
+  section.section-two {
+    height: 25%;
+  }
+}
+@media (max-width:500px) {
+  section.section-two {
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+  }
+}
 section.section-two div {
   width: 17.5%;
+}
+@media (max-width:1000px) {
+  section.section-two div {
+    width: 30%;
+  }
+}
+@media (max-width:500px) {
+  section.section-two div {
+    width: 65% ;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
 section.section-two div h3 {
   margin-top: 1rem;
@@ -217,6 +361,16 @@ section.section-two div h3 {
   justify-content: center;
   text-align: center;
   line-height: 2rem;
+}
+@media (max-width:1000px) {
+  section.section-two div h3 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:500px) {
+  section.section-two div h3 {
+    font-size: 1rem ;
+  }
 }
 .button-one {
   background-color: #39869d;
@@ -231,6 +385,20 @@ section.section-two div h3 {
   justify-content: center;
   border: #39869d solid 2px;
 }
+@media (max-width:1000px) {
+  .button-one {
+    width: 12rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:500px) {
+  .button-one {
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
+}
 .button-two {
   background-color: #121212;
   border-radius: 1.8rem;
@@ -244,94 +412,38 @@ section.section-two div h3 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width:1000px) {
+  .button-two {
+    width: 12rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:500px) {
+  .button-two {
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
+}
 .about-title {
   font-size: 7rem;
   text-align: center;
 }
-.about-one {
-  width: 90%;
-  height: 25%;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  display: flex;
-  padding: 1%;
-  border-radius: 0.5rem;
-  margin-top: 2%;
+@media (max-width:1000px) {
+  .about-title {
+    font-size: 6rem;
+  }
 }
-.about-one div img {
-  height: 100%;
+@media (max-width:500px) {
+  .about-title {
+    font-size: 4rem;
+  }
 }
-.about-one div h2 {
-  color: black;
-  margin-left: 2%;
-}
-.about-one div p {
-  color: black;
-  margin-left: 2%;
-}
-.about-two {
-  width: 90%;
-  height: 25%;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  display: flex;
-  padding: 1%;
-  border-radius: 0.5rem;
-  margin-top: 2%;
-}
-.about-two div img {
-  height: 100%;
-}
-.about-two div h2 {
-  color: black;
-  margin-left: 2%;
-}
-.about-two div p {
-  color: black;
-  margin-left: 2%;
-}
-.about-three {
-  width: 90%;
-  height: 25%;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  display: flex;
-  padding: 1%;
-  border-radius: 0.5rem;
-  margin-top: 2%;
-}
-.about-three div img {
-  height: 100%;
-}
-.about-three div h2 {
-  color: black;
-  margin-left: 2%;
-}
-.about-three div p {
-  color: black;
-  margin-left: 2%;
-}
-.about-four {
-  width: 90%;
-  height: 25%;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  display: flex;
-  padding: 1%;
-  border-radius: 0.5rem;
-  margin-top: 2%;
-}
-.about-four div img {
-  height: 100%;
-}
-.about-four div h2 {
-  color: black;
-  margin-left: 2%;
-}
-.about-four div p {
-  color: black;
-  margin-left: 2%;
-}
+.about-one,
+.about-two,
+.about-three,
+.about-four,
 .about-five {
   width: 90%;
   height: 25%;
@@ -341,23 +453,97 @@ section.section-two div h3 {
   padding: 1%;
   border-radius: 0.5rem;
   margin-top: 2%;
-  margin-bottom: 2%;
 }
-.about-five div img {
-  height: 100%;
+@media (max-width:1000px) {
+  .about-one,
+  .about-two,
+  .about-three,
+  .about-four,
+  .about-five {
+    height: 20%;
+    margin-top: 3%;
+  }
 }
+@media (max-width:500px) {
+  .about-one,
+  .about-two,
+  .about-three,
+  .about-four,
+  .about-five {
+    height: 15%;
+  }
+}
+.about-one div h2,
+.about-two div h2,
+.about-three div h2,
+.about-four div h2,
 .about-five div h2 {
   color: black;
   margin-left: 2%;
 }
+@media (max-width:500px) {
+  .about-one div h2,
+  .about-two div h2,
+  .about-three div h2,
+  .about-four div h2,
+  .about-five div h2 {
+    font-size: 2.25rem;
+  }
+}
+.about-one div p,
+.about-two div p,
+.about-three div p,
+.about-four div p,
 .about-five div p {
   color: black;
   margin-left: 2%;
+}
+@media (max-width:500px) {
+  .about-one div p,
+  .about-two div p,
+  .about-three div p,
+  .about-four div p,
+  .about-five div p {
+    font-size: 1.2rem;
+  }
+}
+.about-one div.img-div,
+.about-two div.img-div,
+.about-three div.img-div,
+.about-four div.img-div,
+.about-five div.img-div {
+  width: 20%;
+}
+@media (max-width:1000px) {
+  .about-one div.img-div,
+  .about-two div.img-div,
+  .about-three div.img-div,
+  .about-four div.img-div,
+  .about-five div.img-div {
+    width: 60%;
+  }
+}
+@media (max-width:500px) {
+  .about-one div.img-div,
+  .about-two div.img-div,
+  .about-three div.img-div,
+  .about-four div.img-div,
+  .about-five div.img-div {
+    width: 100%;
+  }
+}
+.about-one div.img-div img,
+.about-two div.img-div img,
+.about-three div.img-div img,
+.about-four div.img-div img,
+.about-five div.img-div img {
+  width: 100%;
+  height: 100%;
 }
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/comfortaa/v27/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfJQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/comfortaa/v28/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfJQ.ttf) format('truetype');
 }
