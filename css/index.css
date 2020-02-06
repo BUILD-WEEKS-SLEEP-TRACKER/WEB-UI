@@ -163,8 +163,8 @@ p {
   line-height: 1.4;
 }
 header {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09)), #121212;
-  height: 10vh;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.09), #ffffff17), #121212;
+  height: 10%;
 }
 @media (max-width: 1200px) {
   header {
@@ -173,7 +173,7 @@ header {
 }
 @media (max-width:730px) {
   header {
-    height: 20vh;
+    height: 20%;
   }
 }
 header .header-container {
@@ -318,8 +318,8 @@ body .aboutUs .aboutUsContainer div {
 @media (max-width:730px) {
   body .aboutUs .aboutUsContainer div {
     width: 38%;
-    margin: 3rem;
-    height: 35vh;
+    margin: 6%;
+    height: 30%;
   }
 }
 body .aboutUs .aboutUsContainer div h3 {
@@ -446,8 +446,10 @@ body {
   }
 }
 .top-page div .buttons button:hover {
-  color: white;
   background-color: lightseagreen;
+}
+.top-page div .buttons button:hover a {
+  color: white;
 }
 .top-page div .buttons .signUp {
   background-color: #39869D;
@@ -466,6 +468,9 @@ body {
   color: #39869D;
   font-size: 1.8rem;
   text-decoration: none;
+}
+.top-page div .buttons .signIn a:hover {
+  color: white;
 }
 .top-page div img {
   width: 80%;
