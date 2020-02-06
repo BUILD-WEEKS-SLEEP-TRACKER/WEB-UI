@@ -173,7 +173,7 @@ header {
 }
 @media (max-width:730px) {
   header {
-    height: 15%;
+    height: 10%;
   }
 }
 header .header-container {
